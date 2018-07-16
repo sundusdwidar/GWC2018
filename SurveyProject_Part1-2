@@ -1,0 +1,32 @@
+
+# Create a list of survey questions
+# PUT YOUR CODE HERE 
+    
+# Create a list of related keys that will be used when storing survey result.
+# PUT YOUR CODE HERE 
+
+# Create a list that will store each person's individual survey responses
+# PUT YOUR CODE HERE 
+
+done = "NO"
+while done == "NO":
+
+    # Create the dictionary to store the responses
+    # PUT YOUR CODE HERE 
+    
+    print("New entry! Please answer the questions below.")
+
+    # For loop - Iterate over the list of survey questions and take in user responses 
+    # and put those responses in the dictionary you created
+    
+    for x in range(len(# PUT YOUR CODE HERE)):
+        response = input(# PUT YOUR CODE HERE [x] +": ")
+        # PUT YOUR CODE HERE [keys[x]] = response
+    
+    # Append the list you created to store each person's responses with the dictionary
+    # PUT YOUR CODE HERE 
+
+    done = input("Are you done collecting information? Type YES or NO: ").upper()
+
+# Print the list of dictionaries
+# PUT YOUR CODE HERE 
